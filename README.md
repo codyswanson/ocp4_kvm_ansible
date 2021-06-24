@@ -207,7 +207,7 @@ worker-3.ocp4.mydomain.com   Ready    worker          42m   v1.14.6+c07e432da
 ```
 - You can delete "bootstrap" VM once the deployment is completed and confirmed.
 
-# Destroy The envirnment:
+# Destroy The environment:
 - To delete all of the created resources "VMs, DNS records, KVM networks,...." run the following playook "**it will NOT delete donwloaded files**":
 ```
 [bastionhost]# ansible-playbook destroy.yaml
